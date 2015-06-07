@@ -17,19 +17,19 @@
       <img src="assets1/everyone.jpg" />
       <p>
 This is a field guide for debugging for everyone - whether you are
-beginning to code or whether you have been coding for a long time, this guide
+beginning to code or you have been coding for a long time, this guide
 breaks down the mysterious process of solving problems. It was made by the Education
-Working Group, during the p5.js contributor conference at the Frank-Rytche Studio for
-Creative Inquiry, Carnegie Mellon University in May of 2015. The contributors of this
-tutorial is Luisa, Jason, Tega, Taeyoon and many more.
+Working Group, during the p5.js contributor conference at the Frank-Ratchye STUDIO for
+Creative Inquiry, Carnegie Mellon University in May of 2015. The contributors to this
+tutorial include Luisa, Jason, Tega, Taeyoon and many more.
 
 
       </p>
       <a class="anchor" href="#file-setup"><h3 class = "start-element tutorial-btn" id = "introduction">Debugging is a Creative Act</h3></a>
     <div class="info" id="introduction">
       <p>
-        Debugging is major part of the development process in any language. The word 'debugging' describes locating a bug in your program, and figuring out what exactly is going on when the code throws this error. At all levels programmers encounter bugs and will often spend more time debugging than actually programming the application. You can expect to spend a lot
-        of time doing this and so it's really important to develop good strategies for identifying and working through bugs as you learn p5.js.
+        Debugging is major part of the development process in any language. The word 'debugging' describes locating a bug in your program and figuring out what exactly is going on when the code throws this error. Programmers of all skill levels encounter bugs and will often spend more time debugging than actually programming the application. You can expect to spend a lot
+        of time doing this, so it's really important to develop good strategies for identifying and working through bugs as you learn p5.js.
       </p>
 
       <img class="small_right" img src="assets1/bug3.jpg" />
@@ -41,7 +41,7 @@ tutorial is Luisa, Jason, Tega, Taeyoon and many more.
 
       <a class="anchor" href="#file-setup"><h3 class = "start-element tutorial-btn" id = "remember">Remember...</h3></a>
     <div class="info" id="remember">
-      <p>As you program you will be shifting between many roles and perspectives. When designing the scope and process of your application you are an architect, when writing your code you are an engineer, when testing you are a vandal and you have to be a detective when finding your bugs.
+      <p>As you program you will be shifting between many roles and perspectives. When designing the scope and process of your application, you are an architect. When writing your code, you are an engineer. When testing, you are a vandal. To find your bugs, you have to be a detective.
       </p>
       <img class="small" img src="assets1/p1.jpg" />
       <img class="small" img src="assets1/p2.jpg" />
@@ -49,15 +49,15 @@ tutorial is Luisa, Jason, Tega, Taeyoon and many more.
       <img class="small" img src="assets1/p4.jpg" />
 
       <a name="1" class="anchor"><h3 class = "start-element tutorial-btn" id = "Don't panic">1. Don't panic. Change perspectives.</h3></a>
-      <div class="info" id = "don't panic">
+      <div class="info" id="dontpanic">
       <p>
-        When you encounter a bug that you do not know how to solve, stop, pause and take a deep breath. Stand up, say hi to the dog, take a walk or if it's late go get some sleep. When you are frustrated, tired and upset, you are not in a good frame of mind to learn or solve  a  problem.
+        When you encounter a bug that you do not know how to solve, stop, pause and take a deep breath. Stand up, say hi to the dog, take a walk, or if it's late, go get some sleep. When you are frustrated, tired, and upset, you are not in a good frame of mind to learn or solve a problem.
       </p>
       <p>
-  To find your errors you will need to change perspectives and become the detective. The goal is to find out what the program IS doing, rather than why it's not doing what it's supposed to. We need to get the computer to show us what it's doing.
+  To find your errors you will need to change perspectives and become the detective. Your goal is to find out what the program IS doing, rather than why it's not doing what it's supposed to. As detectives, we need to get the computer to show us what it's doing.
       </p>
       <p>
-      The clues are in the values of variables and flow of program.
+      The clues are in the values of variables and the flow of the program.
     </p>
       </div>
 
@@ -65,12 +65,12 @@ tutorial is Luisa, Jason, Tega, Taeyoon and many more.
       <div class = "info" id = "problem">
         <p>
         <img class="small_left" img src="assets1/o1.jpg" />
-  Walk someone through the issue even if they themselves do not know how to program. If no one is around, draft an email explaining what you have done and breaking down what the problem is.
+  Walk someone through the issue even if they themselves do not know how to program. If no one is around, draft an email explaining what you have done, breaking down what the problem is.
 
     </p>
       <p>
         <img class="small_right" img src="assets1/o2.jpg" />
-      You probably won't need to actually send this email as often the act of writing it will help you to locate and identify what you need to do next. Some programmers have even been known to explain their problem to a friendly inanimate object like a rubber ducky.
+      You probably won't need to actually send this email, as often the act of writing it will help you to locate and identify what you need to do next. Some programmers have even been known to explain their problem to a friendly inanimate object, like a rubber ducky.
     </p>
     <p>
       <img class="small_left" img src="assets1/o3.jpg" />
@@ -93,7 +93,7 @@ tutorial is Luisa, Jason, Tega, Taeyoon and many more.
     </p>
     <p>
       <img class="smaller_right" img src="assets1/o7.jpg" />
-    2) Write a list of what you are trying. </br>This will help you to keep track of what you still need to check. Be  methodical, it will save you allot of time in the long run.
+    2) Write a list of what you are trying. </br>This will help you to keep track of what you still need to check. Be methodical, it will save you a lot of time in the long run.
   </p>
   <p>
   3) Only ever change one thing at a time.
@@ -102,29 +102,29 @@ tutorial is Luisa, Jason, Tega, Taeyoon and many more.
 
       <p>
         <img class="small_left" img src="assets1/o9.jpg" />
-        Every time you make a change, test your program. If you make multiple changes  before testing, you will not know which change has what affect and are  likely to break things further.
+        Every time you make a change, test your program. If you make multiple changes before testing, you won't know which change has what affect, and you're likely to break things further.
       </p>
 
       <a name="4" class="anchor"><h3 class = "start-element tutorial-btn" id = "basics">4. Check the basics </h3></a>
       <div class = "info" id = "basics">
         <p>
           Is everything plugged in?<br/>
-        Many bugs end up being very basic mistakes that are equivalent to forgetting to plug in the projector. These mistakes are so obvious they are often invisible. Check the dumb stuff like are you editing the file that you are actually running (and not, for example, editing the local file, and looking at a different file on the server)? Are all of your external files where you think they are? Are your file dependencies correct? Are there any typos in your paths? Check your server?
+        Many bugs end up being very basic mistakes that are equivalent to forgetting to plug in the projector. These mistakes are so obvious they are often invisible. Check the dumb stuff, like: Are you editing the file that you are actually running (and not, for example, editing the local file, and looking at a different file on the server)? Are all of your external files where you think they are? Are your file dependencies correct? Are there any typos in your paths? Check your server?
       </p>
       <p>
       Identify and check any 'Black boxes'.<br/>
       <img class="med_left" img src="assets1/bb1.jpg" />
 A black box describes any part of your system you do not understand the inner workings of. For example, a library or perhaps a function that you have not written for yourself.
 <img class="small_right" img src="assets1/bb2.jpg" />
-Systematically take out each black box one by one and run your program. This will help to see
+Systematically take out each black box, one by one, and run your program. This will help to see
  if these parts of the program contain the error.
   </p>
-      <a name="5" class="anchor"><h3 class = "start-element tutorial-btn" id = "reporting">5. Add error reporting  </h3></a>
+      <a name="5" class="anchor"><h3 class = "start-element tutorial-btn" id = "reporting">5. Add error reporting.  </h3></a>
       <div class = "info" id = "reporting">
         <p>
         <img class="med_left" img src="assets1/e1.jpg" />
 
-        Error reporting is how your program tells you what it is doing. p5.js comes with some built-in error reporting that will tell you if you have made specific syntax errors. For more details on how to find the browser console's error reporting go here.
+        Error reporting is how your program tells you what it is doing. p5.js comes with some built-in error reporting that will tell you if you have made specific syntax errors. For more details on how to find the browser console's error reporting, <a href="#">go here.</a>
 
       </p>
 
@@ -156,7 +156,7 @@ Systematically take out each black box one by one and run your program. This wil
   </li><li>
     Mozilla's JavaScript Guide and JavaScript Reference (really helpful for finding all of the built-in methods for, say, a String.)
   </li><li>
-    Lauren's course's resources: https://github.com/lmccart/itp-creative-js#js-learning--intro
+    Resources for the ITP Creative JavaScript course taught by Lauren McCarthy: https://github.com/lmccart/itp-creative-js#js-learning--intro
   </li>
 </ul>
       <a name="7" class="anchor"><h3 class = "start-element tutorial-btn" id = "people">7. Ask people </h3></a>
@@ -166,7 +166,7 @@ Systematically take out each black box one by one and run your program. This wil
         <img class="med_right" img src="assets1/people.jpg" />
 You can also ask people for help! They might be delighted to help you.  <br/>
 Send that email you wrote at the start.  <br/>
-Post to the Processing forum succinctly articulating your problem and what you want to know. <br/>
+Post to the Processing forum, succinctly articulating your problem and what you want to know. <br/>
 </p>
 
       <a name="8" class="anchor"><h3 class = "start-element tutorial-btn" id = "prevent">8. Good coding practices and how to prevent bugs!</h3></a>
@@ -174,22 +174,23 @@ Post to the Processing forum succinctly articulating your problem and what you w
         <p><img class="image" img src="assets1/practice.jpg" />
           <ul>
           <li>
-        Do not optimize prematurely. Clear code is more important than high-performing code as you're building your program.<br/>
+        Do not optimize prematurely. Clear and readable code is more important than high-performing code as you're building your program.<br/>
       </li><li>
-    Do not abstract prematurely. You don't need to make functions for things you think you're going to use multiple times...until you actually have to use it more than once twice. <br/>
+    Do not abstract prematurely. You don't need to make functions for things you think you're going to use multiple times...until you actually have to use them multiple times. <br/>
   </li><li>
-    Start with pseudocode as comments, then add code underneath each step.<br/>
-    Put console.log()s in your code as you develop (and test frequently—so if something changes, you know what you did since the last time you tested).<br/>
+    Start with pseudocode as comments, then add code underneath each step.
+    </li><li>
+    Put console.log()s in your code as you develop (and test frequently—so if something changes, you know what you did since the last time you tested).
 </li>
 </ul>
 </p>
 <p>
-ALSO: start with small problems! Do one thing at a time. It's ok to make smaller sketches to test one thing (draw a star! check twitter!) and then voltron them together into a bigger sketch (draw a star that turns red when you have a notification on twitter!)
+ALSO: start with small problems! Do one thing at a time. It's ok to make smaller sketches to test one thing (draw a star! check twitter!) and then <i>voltron them together</i> into a bigger sketch (draw a star that turns red when you have a notification on twitter!).
   </p>
       <a name="9" class="anchor"><h3 class = "start-element tutorial-btn" id = "help">9. More resources </h3></a>
       <div class = "info" id = "resources">
         <p>
-This guide has been inspired by several other fantastic resources on debugging when coding. Some of these are here:
+This guide has been inspired by several other fantastic resources on debugging when coding. Read more about debugging:
 <ul>
 <li>
 Matt Gemmel, <a href="http://mattgemmell.com/what-have-you-tried/">What have you tried?</a>
